@@ -1,5 +1,5 @@
-# Serve landing page at root (200 = rewrite, not redirect)
-/  /index.html  200
-
-# Everything else redirects to v3 archive
-/*  https://v3.soulectiontracklists.com/:splat  301
+# Redirect deep links to v3 archive
+/tracklists/*  https://v3.soulectiontracklists.com/tracklists/:splat  301
+/episodes/*    https://v3.soulectiontracklists.com/episodes/:splat    301
+/artists/*     https://v3.soulectiontracklists.com/artists/:splat     301
+/shows/*       https://v3.soulectiontracklists.com/shows/:splat       301
