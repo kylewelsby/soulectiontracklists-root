@@ -1,5 +1,10 @@
 # Redirect deep links to v3 archive
-/tracklists/*  https://v3.soulectiontracklists.com/tracklists/:splat  301
 /episodes/*    https://v3.soulectiontracklists.com/episodes/:splat    301
 /artists/*     https://v3.soulectiontracklists.com/artists/:splat     301
-/shows/*       https://v3.soulectiontracklists.com/shows/:splat       301
+/tracklists/*  https://v3.soulectiontracklists.com/tracklists/:splat  301
+/stats         https://v3.soulectiontracklists.com/stats              301
+/open          https://v3.soulectiontracklists.com/open               301
+/latest        https://v3.soulectiontracklists.com/latest             301
+/soundcloud    https://v3.soulectiontracklists.com/soundcloud         301
+/mixcloud      https://v3.soulectiontracklists.com/mixcloud           301
+/beats1        https://v3.soulectiontracklists.com/beats1             301
