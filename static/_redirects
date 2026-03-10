@@ -1,0 +1,3 @@
+# Catch-all: redirect every path to v3 (root / serves index.html first)
+# Cloudflare Pages serves static assets before processing _redirects
+/*  https://v3.soulectiontracklists.com/:splat  301

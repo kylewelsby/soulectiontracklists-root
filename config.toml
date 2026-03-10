@@ -1,0 +1,7 @@
+base_url = "https://soulectiontracklists.com"
+title = "Soulection Tracklists"
+description = "Directory for Soulection Radio tracklists — past, present, and future."
+compile_sass = true
+minify_html = true
+build_search_index = false
+generate_feeds = false
